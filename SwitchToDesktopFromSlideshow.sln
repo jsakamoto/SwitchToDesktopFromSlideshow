@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchToDesktopFromSlidesho
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "SwitchToDesktopFromSlideshowPackage", "SwitchToDesktopFromSlideshowPackage\SwitchToDesktopFromSlideshowPackage.wapproj", "{1ABD97BF-9494-4FEF-A3AA-0AF2F5DB824D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{82F83CF1-D694-48A7-88E7-42E945C4D1A4}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
