@@ -74,7 +74,7 @@
             this.ClientSize = new System.Drawing.Size(182, 122);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "Switch to Desktop from Slideshow";
+            this.Text = "{0}";
             this.NotifyIconContextMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 

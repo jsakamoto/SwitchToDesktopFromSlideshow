@@ -18,6 +18,8 @@ namespace SwitchToDesktopFromSlideshow.Forms
         {
             InitializeComponent();
 
+            this.Text = string.Format(this.Text, AppInfo.AppTitle);
+
             this.Settings = settings;
             this.WinKeyCheckBox.Checked = this.Settings.HotkeyModifiers.HasFlag(KeyModifiers.Win);
             this.ShiftKeyCheckBox.Checked = this.Settings.HotkeyModifiers.HasFlag(KeyModifiers.Shift);

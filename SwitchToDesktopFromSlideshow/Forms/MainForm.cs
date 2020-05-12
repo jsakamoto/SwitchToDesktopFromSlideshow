@@ -23,6 +23,8 @@ namespace SwitchToDesktopFromSlideshow.Forms
         public MainForm(SwitcherSettings switcherSettings)
         {
             InitializeComponent();
+
+            this.Text = string.Format(this.Text, AppInfo.AppTitle);
             SwitcherSettings = switcherSettings;
 
             UpdateNotifyIconText();

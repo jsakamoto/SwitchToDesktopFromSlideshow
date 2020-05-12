@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("This is a Windows application that allows you to toggle showing or hiding of PowerPoint slideshow by keyboard shortcut.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Switch to Desktop from Slideshow")]
+[assembly: AssemblyProduct(AppInfo.AppTitle)]
 [assembly: AssemblyCopyright("Copyright © J.Sakamoto 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,3 +32,8 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
+
+internal static class AppInfo
+{
+    public const string AppTitle = "Switch to Desktop from Slide show";
+}

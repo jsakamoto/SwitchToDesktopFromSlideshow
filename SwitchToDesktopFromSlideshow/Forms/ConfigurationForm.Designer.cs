@@ -162,7 +162,7 @@
             this.MinimizeBox = false;
             this.Name = "ConfigurationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Configuration - Switch to Desktop from Slideshow";
+            this.Text = "Configuration - {0}";
             this.ResumeLayout(false);
 
         }
