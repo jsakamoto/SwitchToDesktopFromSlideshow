@@ -20,7 +20,7 @@ You can quit this app, and you can change keyboard shortcut bindings, from the t
 
 ## System Requirements
 
-- Windows 10
+- Windows 10, 11, or later
 - .NET Framework 4.6, or later
 
 ## Download
