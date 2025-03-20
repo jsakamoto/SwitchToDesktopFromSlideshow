@@ -9,7 +9,7 @@
   <Identity
     Name="43146jsakamoto.SwitchtoDesktopfromSlideshow"
     Publisher="CN=66E76541-9B38-4004-ABD3-685236D8B764"
-    Version="1.0.15.0" />
+    Version="1.0.18.0" />
 
   <Properties>
     <DisplayName>Switch to Desktop from Slide show</DisplayName>
